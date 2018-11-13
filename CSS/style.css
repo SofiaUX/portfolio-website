@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*
+Colors used
+
+Primary Color (Purple): #6200ee;
+Secondary Color (light gray): #f9f9f9;
+Text color (Gray20): #333333;
+Hover Color (Light Purple): :#bb86FC
+Active color (Black): #000000;
+ */
+/* Font sizes */
+body {
+  background-color: #f9f9f9 font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 */
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  color: #000000;
+}
+
+h3 {
+  font-size: 18px;
+}
+p.a {
+    font: 16px 'Roboto', sans-serif;
+}
+
+p.b {
+  font: 20px 'Roboto', sans-serif;
+
+}
+p.c {
+  font: 30px 'Roboto', sans-serif;
+
+/* Unorder list */
+}
+ul.a {
+    list-style-position: outside;
+    font: 16px 'Roboto', sans-serif;
+}
+
+/* style buttons */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font: 16px 'Roboto', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button5 {
+    background-color: white;
+    color: #6200ee;
+    border: 2px solid #6200ee;
+}
