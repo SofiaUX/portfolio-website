@@ -3,96 +3,107 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto:300,400" rel="stylesheet">
-  <title>SofiaUX Portfolio</title>
+  <title>Sofia Kasimi - UX/UI Designer Amsterdam</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="my-work.html">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="wrapper">
+    <header>
+      <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="my-work.html">My Work</a></li>
+          <li><a href="#contact">Contact</a></li>
 
-  <h1>My Work</h1>
-  <div>
-    <!--this will be the container that “contains” the 4 columns-->
-    <div>
-      <!-- this will be the first column-->
-      <img src="img/mockup-inktank.gif" alt="UX/UI Ink Tank Project">
-      <h2>UX /UI Project</h2>
-      <p>
-         This is an app it is called Ink Tank and it is all about the tattoo industry.
+        </ul>
+      </nav>
+    </header>
+
+    <h1>My Work</h1>
+    <div class="row">
+      <!--this will be the container that “contains” the 4 columns-->
+      <div class="column-2">
+        <div class="column-image">
+          <img src="img/mockup-inktank.gif" alt="UX / UI Ink Tank Project">
+        </div>
+        <h3>UX / UI Project</h3>
+        <p>
+          This is an app it is called Ink Tank and it is all about the tattoo industry.
         </p>
         <p>
-           Tattoo lovers can get inspiration for tattoo designs, book online appointment and get updates for the latest news about the tattoo.
-         </p>
-          <p>
-             Tattoo practitioners and individual artists can build a profile with guidelines and grow their business globally.
-           </p>
-    </div><!-- this will end the first column-->
+          Tattoo lovers can get inspiration for tattoo designs, book online appointment and get updates for the latest news about the tattoo.
+        </p>
+        <p>
+          Tattoo practitioners and individual artists can build a profile with guidelines and grow their business globally.
+        </p>
+      </div><!-- this will end the first column-->
 
-    <div>
       <!-- this will be the second column-->
-      <img src="img/vocapp-mockup.jpg" alt="UX Fundamental Vocapp Project">
-      <h2>UX Fundamental Project</h2>
-      <p>
-        This is a mobile application it is called Vocapp.
-      </p>
-      <p>
-        Is a product to be used on-the-go for quick 5 –10 min. study sessions,focused on learning new vocabulary.
-      </p>
-    </div><!-- this will end the second column-->
+      <div class="column-2">
+        <div class="column-image">
+          <img src="img/vocapp-mockup.jpg" alt="UX Fundamental Vocapp Project">
+        </div>
+        <h3>UX Fundamental Project</h3>
+        <p>
+          This is a mobile application it is called Vocapp.
+        </p>
+        <p>
+          Is a product to be used on-the-go for quick 5 –10 min. study sessions,focused on learning new vocabulary.
+        </p>
+      </div><!-- this will end the second column-->
+    </div>
 
-    <div>
+    <div class="row">
       <!-- this will be the third column-->
-      <img src="img/logo-healthswap.jpg" alt="Logo Projects">
-      <h2>Logo Projects</h2>
-      <p>
-        A collection of my logo proposals during the years 2015 - 2018
-      </p>
-    </div><!-- this will end the third column-->
+      <div class="column-2">
+        <div class="column-image">
+          <img src="img/logo-healthswap.jpg" alt="Logo Projects">
+        </div>
+        <h3>Logo Projects</h3>
+        <p>
+          A collection of my logo proposals during the years 2015 - 2018
+        </p>
+      </div><!-- this will end the third column-->
 
-    <div>
       <!-- this will be the fourth column-->
-      <img src="img/book-cover.jpg" alt="Book illustration Projects">
-      <h2>Book illustrations</h2>
-      <p>
-        A collection of my book illustrations during the years 2014 - 2018
-      </p>
-      <p>
-         The Illustrations have made with a combination of collage technique, collection of photos and software tools like Photoshop, Illustrator and Indesign
-       </p>
-    </div><!-- this will end the fourth column-->
-  </div><!-- this will close the container-->
+      <div class="column-2">
+        <div class="column-image">
+          <img src="img/book-cover.jpg" alt="Book illustration Projects">
+        </div>
+        <p>
+          A collection of my book illustrations during the years 2014 - 2018
+        </p>
+        <p>
+          The Illustrations have made with a combination of collage technique, collection of photos and software tools like Photoshop, Illustrator and Indesign
+        </p>
+      </div><!-- this will end the fourth column-->
+    </div><!-- this will close the container-->
 
 
-  <footer id="contact">
-    <div>
-      <h2>Get in Touch</h2>
-    </div>
-    <div>
-      <p>
-        Do you like my work and want to discuss a new project, please send me an email
-      </p>
-      <a href="mailto:sofiakas02@gmail.com" class="button">Send me Email</a>
-    </div>
-    <div>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div>
-  </footer>
+    <footer id="contact">
+      <div>
+        <h2>Get in Touch</h2>
+      </div>
+      <div>
+        <p>
+          Do you like my work and want to discuss a new project, please send me an email
+        </p>
+        <a href="mailto:sofiakas02@gmail.com" class="button">Send me Email</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
 
 </body>
 

@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto:300,400" rel="stylesheet">
@@ -11,72 +12,84 @@
 </head>
 
 <body>
-  <header>
-    <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="my-work.html">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <div class="wrapper">
+    <header>
+      <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="my-work.html">My Work</a></li>
+          <li><a href="#contact">Contact</a></li>
 
-      </ul>
-    </nav>
-  </header>
+        </ul>
+      </nav>
+    </header>
 
-  <h1>Welcome to SofiaUX portfolio!</h1>
-  <p>
-    Hello, I am Sofia a Certified UX Designer leaving in Amsterdam for enhancing human pleasure and product evolution,
-  </P>
-  <p>
-    stretching design potential and simultaneously rendering customers satisfaction total.
-  </p>
+    <h1>Welcome to SofiaUX portfolio!</h1>
+    <p>
+      Hello, I am Sofia a Certified UX Designer leaving in Amsterdam for enhancing human pleasure and product evolution,
+    </P>
+    <p>
+      stretching design potential and simultaneously rendering customers satisfaction total.
+    </p>
 
-  <div>
-    <h2>My Work</h2>
-    <!--this will be the container that “contains” the 4 columns-->
-    <div>
-      <!-- this will be the first column-->
-      <img src="img/mockup-inktank.gif" alt="UX / UI Ink Tank Project">
-      <h3>UX / UI Project</h3>
-    </div><!-- this will end the first column-->
+    <div id="work">
+      <h2>My Work</h2>
+      <!--this will be the container that “contains” the 4 columns-->
+      <div class="row">
+        <!-- this will be the first column-->
+        <div class="column-2">
+          <div class="column-image">
+            <img src="img/mockup-inktank.gif" alt="UX / UI Ink Tank Project">
+          </div>
+          <h3>UX / UI Project</h3>
+        </div><!-- this will end the first column-->
 
-    <div>
-      <!-- this will be the second column-->
-      <img src="img/vocapp-mockup.jpg" alt="UX Fundamental Vocapp Project">
-      <h3>UX Fundamental Project</h3>
-    </div><!-- this will end the second column-->
+        <!-- this will be the second column-->
+        <div class="column-2">
+          <div class="column-image">
+            <img src="img/vocapp-mockup.jpg" alt="UX Fundamental Vocapp Project">
+          </div>
+          <h3>UX Fundamental Project</h3>
+        </div><!-- this will end the second column-->
+      </div>
 
-    <div>
-      <!-- this will be the third column-->
-      <img src="img/logo-healthswap.jpg" alt="Logo Projects">
-      <h3>Logo Projects</h3>
-    </div><!-- this will end the third column-->
+      <div class="row">
+        <!-- this will be the third column-->
+        <div class="column-2">
+          <div class="column-image">
+            <img src="img/logo-healthswap.jpg" alt="Logo Projects">
+          </div>
+          <h3>Logo Projects</h3>
+        </div><!-- this will end the third column-->
 
-    <div>
-      <!-- this will be the fourth column-->
-      <img src="img/book-cover.jpg" alt="Book illustration Projects">
-      <h3>Book illustrations</h3>
-    </div><!-- this will end the fourth column-->
-  </div><!-- this will close the container-->
+        <!-- this will be the fourth column-->
+        <div class="column-2">
+          <div class="column-image">
+            <img src="img/book-cover.jpg" alt="Book illustration Projects">
+          </div>
+          <h3>Book illustrations</h3>
+        </div><!-- this will end the fourth column-->
+      </div><!-- this will close the container-->
 
-  <footer id="contact">
-    <div>
-      <h2>Get in Touch</h2>
-    </div>
-    <div>
-      <p>
-        Do you like my work and want to discuss a new project, please send me an email
-      </p>
-      <a href="mailto:sofiakas02@gmail.com" class="button">Send me email</a>
-    </div>
-    <div>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div>
-  </footer>
+      <footer id="contact">
+        <div>
+          <h2>Get in Touch</h2>
+        </div>
+        <div>
+          <p>
+            Do you like my work and want to discuss a new project, please send me an email
+          </p>
+          <a href="mailto:sofiakas02@gmail.com" class="button">Send me email</a>
+        </div>
+        <div>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </footer>
 
 </body>
 
