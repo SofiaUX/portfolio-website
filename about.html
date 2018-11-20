@@ -12,8 +12,8 @@
 </head>
 
 <body>
-  <div class="wrapper">
     <header>
+      <div class="wrapper">
       <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
       <nav>
         <ul>
@@ -21,11 +21,21 @@
           <li><a href="about.html">About</a></li>
           <li><a href="my-work.html">My Work</a></li>
           <li><a href="#contact">Contact</a></li>
-
-        </ul>
+      </ul>
       </nav>
+    </div>
     </header>
+
+  <div class="wrapper">
   <h1>About</h1>
+  </div>
+
+<!--this will be the container that “contains” the 4 columns-->
+  <div class="wrapper">
+<div class="row">
+  <!-- this will be the first column-->
+  <div class="column-2">
+    <div class="column-about-text">
   <p>
     I am Sofia, a Certified UX Designer by following an intensive 10 months UX Design Specialization course from Careerfoundry.
   </p>
@@ -45,14 +55,26 @@
     I have reached all these aspects through:
   </p>
 
-  <ul class="a">
+  <ul class="order-list">
     <li>Research</li>
     <li>Analysis</li>
     <li>Real-time interviews</li>
     <li>Best practices in UX Design</li>
   </ul>
+  </div>
+</div>
+  </div><!-- this will end the first column-->
+
+  <!-- this will be the second column-->
+  <div class="column-2">
+    <div class="column-personal-photo">
+      <img src="img/personal-photo.png" alt="Personal photography">
+    </div>
+  </div><!-- this will end the second column-->
+</div><!-- this will end the wrapper div-->
 
   <footer id="contact">
+      <div class="wrapper">
     <div>
       <h2>Get in Touch</h2>
     </div>
@@ -64,14 +86,15 @@
     </div>
     <hr>
     <div>
-      <ul>
+      <ul class="social-media">
         <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
+  </div><!-- this will end the wrapper div-->
   </footer>
 
-</div>
+
 </body>
 
 </html>

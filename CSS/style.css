@@ -26,6 +26,7 @@ body {
 h1 {
   font-family: 'Lora', serif;
   font-size: 68px;
+  padding-top: 30px;
   font-weight: 700;
   color: #6200EE;
 }
@@ -39,11 +40,11 @@ h2 {
 
 h3 {
   font-size: 18px;
-    cursor: pointer;
-
+  cursor: pointer;
 }
-h3:hover{
-  color:#bb86FC;
+
+h3:hover {
+  color: #bb86FC;
 }
 
 #work h3 {
@@ -60,9 +61,8 @@ h3:hover{
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
   margin: 20px 0;
-
 }
 
 .button:hover {
@@ -72,16 +72,19 @@ h3:hover{
 
 /* style header */
 header {
-
-padding: 15px 0;
+  padding: 15px 0;
+  overflow: visible;
+  background-color: #FFFFFF;
+  border-bottom: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .logo {
   max-width: 175px;
 }
-
 
 nav {
   float: right;
@@ -101,16 +104,18 @@ nav ul li {
 }
 
 nav a {
+  font-size: 20px;
   text-decoration: none;
   color: #000000;
 }
+
 .index-active {
   text-decoration: none;
   color: #bb86FC;
 }
 
 nav a:hover {
-   color: #bb86FC;
+  color: #bb86FC;
 }
 
 /* Layout styling */
@@ -118,15 +123,14 @@ img {
   width: 100%;
 }
 
-ul.a{
- list-style-position: outside;
+ul.a {
+  list-style-position: outside;
 }
 
 /* Dotted black border */
 hr {
-    border-top: 1px dotted black;
+  border-top: 1px dotted black;
 }
-
 
 .wrapper {
   width: 100%;
@@ -149,39 +153,6 @@ hr {
   margin-right: 0;
 }
 
-/* Vertical-align images styling*/
- .res-a {
-   float:left;
-    width:60%;
-  padding: 15px 0 15px 0;
-  }
-  .text-a{
-    text-align:justify
-    display:inline;
-  }
-
-
-.res-b {
-  float:left;
-   width:60%;
- padding: 15px 0 15px 0;
- }
-
- .res-c {
-   float:left;
-    width:60%;
-  padding: 15px 0 15px 0;
-  }
-
-.res-d {
-  float:left;
-   width:60%;
- padding: 15px 0 15px 0;
- }
-
-
-
-
 /* style footer */
 footer {
   padding: 15px 0;
@@ -197,16 +168,17 @@ footer i {
   color: #000000;
 }
 
-ul {
+ul.social-media {
   list-style-type: none;
   text-align: center;
+  display: inline;
   margin-top: 10px;
   padding: 0;
 }
 
-ul li {
-  text-align: center;
-  display: inline-block;
+ul.order-list {
+  text-align: left;
+  list-style-type: circle;
   margin-left: 30px;
 }
 
@@ -214,11 +186,12 @@ a {
   text-decoration: none;
 }
 
-.fa-linkedin:hover{
+.fa-linkedin:hover {
   color: #bb86FC;
 }
-.fa-instagram:hover{
-  color:#bb86FC;
+
+.fa-instagram:hover {
+  color: #bb86FC;
 }
 
 /* responsive styling*/
@@ -227,6 +200,10 @@ a {
 @media only screen and (max-width:767px) {
   header {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 16px;
   }
 
   nav ul li {

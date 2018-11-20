@@ -12,8 +12,9 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+
+  <header>
+    <div class="wrapper">
       <img src="img/sofia-logo.png" class="logo" alt="SofiaUX logo">
       <nav>
         <ul>
@@ -24,72 +25,111 @@
 
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
+  <div class="wrapper">
     <h1>My Work</h1>
 
-        <div class="res-a">
+    <!--this will be the container that “contains” the 4 columns-->
+    <div class="row">
+      <!-- this will be the first column-->
+      <div class="column-2">
+        <div class="column-ux">
           <img src="img/mockup-inktank.gif" alt="UX / UI Ink Tank Project">
-            </div>
-      <div class="text-a">
-        <h3>UX / UI Project</h3>
-        <p>
-          This is an app it is called Ink Tank and it is all about the tattoo industry.
-        </p>
-        <p>
-          Tattoo lovers can get inspiration for tattoo designs, book online appointment and get updates for the latest news about the tattoo.
-        </p>
-        <p>
-          Tattoo practitioners and individual artists can build a profile with guidelines and grow their business globally.
-        </p>
+        </div>
+      </div><!-- this will end the first column-->
+
+      <!-- this will be the second column-->
+      <div class="column-2">
+        <div class="text-ux">
+          <h3>UX / UI Project</h3>
+          <p>
+            This is an app it is called Ink Tank and it is all about the tattoo industry.
+          </p>
+          <p>
+            Tattoo lovers can get inspiration for tattoo designs, book online appointment and get updates for the latest news about the tattoo.
+          </p>
+          <p>
+            Tattoo practitioners and individual artists can build a profile with guidelines and grow their business globally.
+          </p>
+        </div>
       </div>
+    </div><!-- this will end the second column-->
 
 
-
-      <!-- this will be the second vertical-align-->
-      <div class="res-b">
+    <div class="row">
+      <!-- this will be the third column-->
+      <div class="column-2">
+        <div class="column-foundation">
           <img src="img/vocapp-mockup.jpg" alt="UX Fundamental Vocapp Project">
-            </div>
-              <div class="text-b">
-        <h3>UX Fundamental Project</h3>
-        <p>
-          This is a mobile application it is called Vocapp.
-        </p>
-        <p>
-          Is a product to be used on-the-go for quick 5 –10 min. study sessions,focused on learning new vocabulary.
-        </p>
-      </div>
-    <!-- this will end the second set-->
+        </div>
+      </div><!-- this will end the third column-->
+
+      <!-- this will be the fourth column-->
+      <div class="column-2">
+        <div class="text-foundation">
+          <h3>UX Fundamental Project</h3>
+          <p>
+            This is a mobile application it is called Vocapp.
+          </p>
+          <p>
+            Is a product to be used on-the-go for quick 5 –10 min. study sessions,focused on learning new vocabulary.
+          </p>
+        </div>
+      </div><!-- this will end the fourth column-->
+    </div><!-- this will close the container-->
 
 
 
-      <!-- this will be the third vertical-align-->
-      <div class="res-c">
+    <!--this will be the container that “contains” the 4 columns-->
+    <div class="row">
+      <!-- this will be the first column-->
+      <div class="column-2">
+        <div class="column-logo">
           <img src="img/logo-healthswap.jpg" alt="Logo Projects">
         </div>
-        <h3>Logo Projects</h3>
-        <p>
-          A collection of my logo proposals during the years 2015 - 2018
-        </p>
-    <!-- this will end the third text-align-->
+      </div><!-- this will end the first column-->
 
-      <!-- this will be the fourth text-alignn-->
+      <!-- this will be the second column-->
+      <div class="column-2">
+        <div class="text-logo">
+          <h3>Logo Projects</h3>
+          <p>
+            A collection of my logo proposals during the years 2015 - 2018
+          </p>
+        </div>
+      </div>
+    </div><!-- this will end the second column-->
 
-          <div class="res-d">
+    <div class="row">
+      <!-- this will be the third column-->
+      <div class="column-2">
+        <div class="column-illustration">
           <img src="img/book-cover.jpg" alt="Book illustration Projects">
         </div>
-        <h3>Book Illustration Projects</h3>
-        <p>
-          A collection of my book illustrations during the years 2014 - 2018
-        </p>
-        <p>
-          The Illustrations have made with a combination of collage technique, collection of photos and software tools like Photoshop, Illustrator and Indesign
-        </p>
-  <!-- this will end the fourth column-->
+      </div><!-- this will end the third column-->
 
 
+      <!-- this will be the fourth column-->
+      <div class="column-2">
+        <div class="text-illustration">
+          <h3>Book Illustration Projects</h3>
+          <p>
+            A collection of my book illustrations during the years 2014 - 2018
+          </p>
+          <p>
+            The Illustrations have made with a combination of collage technique, collection of photos and software tools like Photoshop, Illustrator and Indesign
+          </p>
+        </div>
+      </div><!-- this will end the fourth column-->
+    </div><!-- this will close the container-->
+  </div>
+  <!--this will close the wrapper-->
 
-    <footer id="contact">
+
+  <footer id="contact">
+    <div class="wrapper">
       <div>
         <h2>Get in Touch</h2>
       </div>
@@ -101,13 +141,15 @@
       </div>
       <hr>
       <div>
-        <ul>
+        <ul class="social-media">
           <li><a href="https://www.linkedin.com/in/sofia-kasimi/"><i class="fab fa-linkedin"></i></a></li>
           <li><a href="https://www.instagram.com/sofias_collage_art/"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
-    </footer>
-</div>
+    </div>
+    <!--this will close the wrapper-->
+  </footer>
+
 </body>
 
 </html>
