@@ -109,7 +109,7 @@ nav a {
   color: #000000;
 }
 
-.index-active {
+nav a.active {
   text-decoration: none;
   color: #bb86FC;
 }
@@ -157,6 +157,7 @@ hr {
 footer {
   padding: 15px 0;
   text-align: center;
+  clear:both;
 }
 
 .footer-h2 {
@@ -168,12 +169,17 @@ footer i {
   color: #000000;
 }
 
-ul.social-media {
+ul.social-media  {
   list-style-type: none;
   text-align: center;
   display: inline;
   margin-top: 10px;
   padding: 0;
+}
+
+ul.social-media li{
+  display:inline;
+  margin-left: 10px;
 }
 
 ul.order-list {
