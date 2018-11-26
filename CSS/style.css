@@ -35,7 +35,6 @@ h2 {
   font-family: 'Lora', serif;
   font-size: 24px;
   font-weight: 700;
-  clear: both;
 }
 
 h3 {
@@ -47,12 +46,30 @@ h3:hover {
   color: #bb86FC;
 }
 
+h4 {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+h4:hover{
+  color:#bb86FC;
+}
+
 #work h3 {
   margin-top: 0;
 }
 
+#projects h3:hover{
+  color: #000000
+}
+
+#projects h3{
+  cursor:default;
+}
+
 /* style buttons */
-.button {
+.button, /* Applies for buttons in a form */
+.button1 { /* Applies for links with the button class */
   background-color: #FFFFFF;
   border: 2px solid #6200EE;
   color: #6200EE;
@@ -63,11 +80,21 @@ h3:hover {
   text-decoration: none;
   display: inline-block;
   margin: 20px 0;
+  border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
   background-color: #6200EE;
   color: #FFFFFF;
+}
+
+.button:active {
+  background-color: #6200EE;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  color: #bb86FC;
 }
 
 /* style header */
@@ -79,7 +106,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
@@ -101,6 +128,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 30px;
+
 }
 
 nav a {
@@ -153,11 +181,17 @@ hr {
   margin-right: 0;
 }
 
+
+.cv-section{
+  text-align: center;
+}
+
+
 /* style footer */
 footer {
   padding: 15px 0;
   text-align: center;
-  clear:both;
+  clear: both;
 }
 
 .footer-h2 {
@@ -169,7 +203,7 @@ footer i {
   color: #000000;
 }
 
-ul.social-media  {
+ul.social-media {
   list-style-type: none;
   text-align: center;
   display: inline;
@@ -177,15 +211,16 @@ ul.social-media  {
   padding: 0;
 }
 
-ul.social-media li{
-  display:inline;
+ul.social-media li {
+  display: inline;
   margin-left: 10px;
 }
 
 ul.order-list {
   text-align: left;
   list-style-type: circle;
-  margin-left: 30px;
+  list-style-position: outside;
+  margin-left: 10px;
 }
 
 a {
@@ -200,6 +235,16 @@ a {
   color: #bb86FC;
 }
 
+@keyframes line_left_first{
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+}
+ .SVGID_2_{
+  animation: 30s line_left_first infinite alternate linear;
+}
+
+
+
 /* responsive styling*/
 @media only screen and (max-width:960px) {}
 
@@ -208,12 +253,16 @@ a {
     text-align: center;
   }
 
+  nav {
+    float: none;
+  }
+
   nav a {
     font-size: 16px;
   }
 
   nav ul li {
-    margin: 0 12px;
+    margin: 0 7px;
   }
 
   h1 {
