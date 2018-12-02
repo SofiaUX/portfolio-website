@@ -12,7 +12,7 @@
 	<stop  offset="1" style="stop-color:#4482CC"/>
 </linearGradient>
 <path fill="url(#SVGID_1_)" d="M82.822,86.25h10.511v7.506H82.822V86.25z"/>
-
+<g id="line-first-left">
 	<g>
 		<defs>
 			<rect id="SVGID_2_" x="82.355" y="85.857" width="11.543" height="8.189"/>
