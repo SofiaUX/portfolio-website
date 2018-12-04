@@ -471,6 +471,7 @@ a {
   transition: transform .6s;
   /* Animation */
   margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .zoom:hover {
@@ -480,42 +481,45 @@ a {
 }
 
 
+  /* (logo projects) */
+#top-left-logo {
+  padding: 60px;
+  background-image: url('../img/cover-logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* (Animation hometown) */
+#top-left-logo li {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #000;
+  width: 35%;
+}
+
+
+ul img.logo-images{
+  width:70%;
+  float:left;
+  padding-right: 20px;
+}
+
+/* (ink tank labyrinth animation) */
 @keyframes color-change {
     from {fill: #edc655;}
     to {fill: #f76414;}
 }
 
-@keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
-}
-
-.sun {
+g #lamp {
   animation: 4s color-change infinite alternate linear;
 }
 
-@keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px,50px);}
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
 
 
-@keyframes cloud-move-reverse {
-    from {transform: translate(446px,48px);}
-    to {transform: translate(100px, 48px);}
-}
 
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
 
+
+
+/* (responsive styling for small screens) */
 @media only screen and (max-width:767px) {
   header {
     text-align: center;
