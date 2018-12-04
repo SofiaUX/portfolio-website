@@ -27,10 +27,14 @@ h1 {
   font-family: 'Lora', serif;
   font-size: 68px;
   font-weight: 700;
-  color: #6200EE;
+  color: #000;
   margin: 0;
   padding: 0 0 .67em 0;
   text-align: center;
+}
+
+.home-page h1{
+  color:#6200ee;
 }
 
 h2 {
@@ -54,7 +58,7 @@ h3:hover {
 }
 
 #projects h3:hover {
-  color: #000000
+  color: #000000;
 }
 
 #projects h3 {
@@ -91,8 +95,8 @@ img {
   display: inline-block;
   margin: 20px 0;
   border-radius: 3px;
-  transition-duration: 0.2s;
-  transition-property: opacity;
+  transition-duration: 1s;
+  transition-property: background-color;
 }
 
 .button:hover {
@@ -101,10 +105,7 @@ img {
 }
 
 .button:active {
-  background-color: #6200EE;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  color: #bb86FC;
+  background-color: #3a008c;
 }
 
 /* style header */
@@ -175,9 +176,7 @@ main {
   padding: 45px 0 0 0;
 }
 
-#hero-2 h1 {
-  color: #000;
-}
+
 
 #hero {
   background: #efefef;
@@ -471,6 +470,43 @@ a {
   transform: scale(1.5);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   cursor: pointer;
+}
+
+
+
+  /* (Animation hometown) */
+@keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+}
+
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;}
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 @media only screen and (max-width:767px) {
