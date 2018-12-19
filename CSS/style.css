@@ -27,7 +27,7 @@ h1 {
   font-family: 'Lora', serif;
   font-size: 68px;
   font-weight: 700;
-  color: #000;
+  color: #6200EE;
   margin: 0;
   padding: 0 0 .67em 0;
   text-align: center;
@@ -45,8 +45,12 @@ h2 {
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 20px;
+
 }
+ h5{
+   color:#FFF;
+ }
 
 a {
   color: #000;
@@ -56,7 +60,7 @@ a {
 }
 
 a:visited {
-  color: #000;
+  color: #6200EE;
 }
 
 a:hover, a:focus {
@@ -71,6 +75,10 @@ nav .far {
   margin-right: 15px;
 }
 
+.case{
+  font-weight: bold;
+}
+
 #work h3 {
   margin-top: 0;
 }
@@ -82,6 +90,10 @@ nav .far {
 #projects h3 {
   cursor: default;
 }
+
+
+
+
 
 /* Course exercise */
 .column-2 {
@@ -263,6 +275,52 @@ hr {
 /* book illustration slider */
 .mySlides {display:none;}
 
+.section-book {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+ .section-book p {
+  color: #778899;
+  font-size: 16px;
+  padding-top: 20px;
+
+}
+
+.section-book-grey p  {
+  color: #FFF;
+  font-size: 16px;
+  padding-top: 20px;
+
+}
+
+
+.section-book h2 {
+  color: #778899;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-book-grey h2 {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-book-grey {
+  background: #6200EE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.cover-image{
+  text-align: center;
+}
+
+
+
+
 /* Column styling*/
 .row::after {
   content: "";
@@ -307,6 +365,28 @@ hr {
 .case:hover {
   color: #bb86FC;
 }
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 420px;
+}
+
+.left {
+  width: 25%;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+
+.right {
+  width: 75%;
+  padding:0;
+}
+
+
+
 
 /* style footer */
 footer {
@@ -389,8 +469,7 @@ a {
   color: #778899;
 }
 
-/* responsive styling*/
-@media only screen and (max-width:960px) {}
+
 
 .saw {
   position: relative;
@@ -418,6 +497,51 @@ a {
 }
 
 /* vockapp styling*/
+
+.section-vockapp-grey{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #778899;
+}
+
+ .section-vockapp p {
+  color: #000;
+  font-size: 16px;
+  padding-top: 20px;
+
+}
+
+.section-vockapp-grey p  {
+  color: #000;
+  font-size: 16px;
+  padding-top: 20px;
+
+}
+
+
+.section-book h2 {
+  color: #778899;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-book-grey h2 {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-book-grey {
+  background: #6200EE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
 .vocapp-image {
   width: 85%;
   padding-left: 100px;
@@ -475,23 +599,12 @@ a {
   width: 85%;
 }
 
+
+
+
 .flows-image {
   width: 60%;
   align-content: center;
-}
-
-.zoom {
-  padding: 20px;
-  transition: transform .6s;
-  /* Animation */
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.zoom:hover {
-  transform: scale(1.5);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  cursor: pointer;
 }
 
 .persona {
@@ -499,11 +612,21 @@ a {
   text-align: center;
 }
 
+
+
 /* (logo projects) */
+
 .section-logo {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.section-logo p {
+  color: #fff;
+
+    font-size: 16px;
+}
+
 
 .section-logo h2 {
   color: #778899;
@@ -512,77 +635,27 @@ a {
 }
 
 .section-logo-grey h2 {
-  color: #000;
+  color: #FFF;
   font-size: 40px;
   text-align: center;
 }
 
 .section-logo-grey {
-  background: #C0C0C0;
+  background: #6200EE;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .section-logo-grey p {
-  color: #fff;
-  text-align: center;
+  color: #FFF;
+  font-size: 16px;
 }
 
-.section-logo-grey h4 {
-  color: #fff;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.sidebar h4 p {
-  color: #000;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
+.section-logo-grey h5,.section-logo h5  {
+  color: #778899;
   font-size: 18px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
+  font-family: 'Lora', serif;
 
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 40px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 18px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
 }
 
 .section-logo-grey h4{
@@ -591,12 +664,20 @@ a {
   padding-left: 20px;
 }
 
+.logo-images{
+  max-width:900px;
+  margin:auto;
 
+}
 
 #main {
   transition: margin-left .5s;
   padding: 16px;
 }
+
+
+/* responsive styling*/
+@media only screen and (max-width:960px) {}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -625,6 +706,10 @@ a {
 
   nav ul li {
     margin: 0 7px;
+  }
+
+  h3{
+    font-size: 30px;
   }
 
   h1 {
@@ -689,4 +774,6 @@ a {
     padding-top: 5px;
     margin-bottom: 0;
   }
+
+
 }
