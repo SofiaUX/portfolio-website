@@ -28,7 +28,6 @@ $(document).ready(function() {
 
 
 
-
   // Slideshow effect at book illustration 1
   function currentDiv(n) {
   showDivs(slideIndex = n);
