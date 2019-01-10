@@ -41,7 +41,7 @@ h1 {
 
 h2 {
   font-family: 'Lora', serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   margin-top: 0;
 }
@@ -70,7 +70,7 @@ a:visited {
 
 a:hover, a:focus {
   color: #bb86FC;
-  background-color: inherit;
+
 }
 
 a:active {
@@ -168,6 +168,41 @@ img {
   color: inherit;
 }
 
+.black-button,
+.black-button {
+  /* Applies for links with the button class */
+  background-color: #FFFFFF;
+  border: 2px solid #000;
+  color: #6200EE;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
+  border-radius: 3px;
+  transition-duration: 1s;
+  transition-property: background-color;
+}
+
+.black-button:hover {
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+.black-button:active {
+  background-color: #3a008c;
+  color: #FFFFFF;
+}
+
+.center-button{
+  text-align: center;
+}
+
+
+
+
 /* style header */
 header {
   padding: 15px 0;
@@ -246,7 +281,7 @@ main {
 #hero p {
   max-width: 600px;
   margin: 0 auto;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 #work {
@@ -297,17 +332,24 @@ hr {
   padding-bottom: 80px;
 }
 
+.section-book ul li {
+  color: #000;
+  background-color: inherit;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 .section-book p {
   color: #778899;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
 .section-book-grey p {
   color: #FFF;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
@@ -499,6 +541,16 @@ hr {
   font-family: 'Lora', serif
 }
 
+
+
+
+.row.cards.fidelity h3 {
+  font-family: 'Lora', serif;
+  color: #00FFFF;
+}
+
+
+
 /* style footer */
 footer {
   clear: both;
@@ -542,6 +594,7 @@ ul.unorder-list {
   list-style-type: circle;
   list-style-position: outside;
   margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -574,7 +627,7 @@ a {
 
 .section-padding h4 {
   text-align: center;
-  font-size: 20px;
+  font-size: 26px;
   color: #000;
   background-color: inherit;
 }
@@ -623,14 +676,14 @@ a {
 .section-vockapp p {
   color: #000;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
 .section-vockapp-grey p {
   color: #000;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 20px;
 }
 
@@ -660,22 +713,28 @@ a {
 .book-section-grey ul li {
   color: #FFF;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
+
 
 }
 
 .book-section-grey p {
   color: #C7C7C7;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 
 .book-section-grey h3 {
   color: #00FFFF;
   background-color: inherit;
-  font-size: 25px;
+  font-size: 28px;
+}
 
+.book-section-grey h4 {
+  color: #FFF;
+  background-color: inherit;
+  font-size: 26px;
 }
 
 .book-section-grey {
@@ -773,6 +832,24 @@ a {
 }
 
 
+.round-corners {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+
+.image-ontop{
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+
+
+
 .section-inktank-teal h2 {
   color: #FFF;
   background-color: inherit;
@@ -788,15 +865,15 @@ a {
 }
 
 .section-inktank-teal p {
-  color: #00FFFF;
+  color: #E5E5E5;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .section-inktank-teal ul li {
   color: #FFF;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .section-inktank-teal h3 {
@@ -812,7 +889,7 @@ a {
   background-color: inherit;
 
   text-align: center;
-  font-size: 29px;
+  font-size: 26px;
 }
 
 
@@ -839,13 +916,19 @@ font-size:25px;
 
 }
 
-
-.cv-container h4{
-  color:  #000;
-  font-size: 20px;
-  font-weight: bold;
+.fidelity-button{
   text-align: center;
 }
+
+.fidelity-button h4{
+  text-align: center;
+  color:  #6200EE;
+  font-size: 26px;
+  text-align: center;
+
+}
+
+
 
 ul li span .unorder-list{
   font-weight: bold;
@@ -1022,12 +1105,12 @@ img {vertical-align: middle;}
 .section-logo p {
   color: #fff;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .section-logo h2 {
   color: #778899;
-  background-color: #1F1F1F;
+  background-color: inherit;
   font-size: 40px;
   text-align: center;
 }
@@ -1049,7 +1132,7 @@ img {vertical-align: middle;}
 .section-logo-grey p {
   color: #FFF;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .section-logo-grey h5, .section-logo h5 {
@@ -1165,6 +1248,10 @@ img {vertical-align: middle;}
 
   nav ul li {
     margin: 0 7px;
+  }
+
+  p{
+    font-size:16px;
   }
 
   h3 {
