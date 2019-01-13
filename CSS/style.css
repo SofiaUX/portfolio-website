@@ -317,6 +317,28 @@ hr {
   clear: both;
 }
 
+/* about design process image*/
+.design-process{
+  max-width:55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#design-process p{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+#design-process h2{
+
+}
+
+
 /* book illustration slider */
 .mySlides {
   display: none;
@@ -478,7 +500,7 @@ hr {
   display: inline-block;
   margin-right: 4%;
   float: left;
-  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
 
 .column-about-text {
@@ -549,6 +571,21 @@ hr {
   color: #00FFFF;
 }
 
+/* about page */
+#high-fidelity p {
+  padding-top: 0;
+  margin-top:0;
+}
+
+#high-fidelity h4 {
+font-size: 25px;
+  margin-bottom:5px;
+}
+
+p span{
+    font-weight: bold;
+
+}
 
 
 /* style footer */
@@ -686,6 +723,7 @@ a {
   font-size: 20px;
   padding-top: 20px;
 }
+
 
 
 
@@ -1290,6 +1328,23 @@ img {vertical-align: middle;}
     text-align: center;
   }
 
+  /* about page */
+  #high-fidelity p {
+    font-size: 16px;
+    padding-top: 0;
+    margin-top:0;
+  }
+
+  #high-fidelity h4 {
+  font-size: 20px;
+    margin-bottom:5px;
+  }
+
+  p span{
+      font-weight: bold;
+
+  }
+
   #main h2 {
     font-size: 25px;
   }
@@ -1306,7 +1361,11 @@ img {vertical-align: middle;}
   .column-2 {
     width: 100%;
     margin-right: 0;
+      margin-bottom: 25px;
+
   }
+
+
 
   .cards ul, .cards ul:nth-child(odd), .cards ul:last-child {
     width: 48%;
@@ -1349,6 +1408,10 @@ img {vertical-align: middle;}
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+
+  .design-process{
+    max-width:100%;
   }
 
   #title-section h2 {
