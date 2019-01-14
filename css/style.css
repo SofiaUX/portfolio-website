@@ -30,9 +30,18 @@ h1 {
   color: #6200EE;
   background-color: inherit;
   margin: 0;
-  padding: 0 0 .67em 0;
+  padding: 0;
   text-align: center;
 }
+
+
+.slogan{
+  margin-top: -0.25em;
+  margin-bottom: 0.5em;
+  color: #6200EE;
+}
+
+
 
 .home-page h1 {
   color: #6200ee;
@@ -1314,6 +1323,13 @@ img {vertical-align: middle;}
     padding-top: 90px;
     line-height: 1.3;
   }
+
+
+.slogan {
+  font-size: 25.5px;
+  margin-top:10px;
+}
+
 
   .section-logo-grey h2, .section-logo h2, .section-book h2, .section-book h2, .section-inktank-teal h2, .book-section-grey h2 {
     font-size: 28px;
