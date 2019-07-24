@@ -53,6 +53,7 @@ h2 {
   font-size: 40px;
   font-weight: 700;
   margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 h3 {
@@ -248,6 +249,7 @@ nav ul li {
   margin-left: 30px;
 }
 
+
 nav a {
   font-size: 20px;
   text-decoration: none;
@@ -274,6 +276,14 @@ main {
   padding-top: 78px;
 }
 
+.row.section-row{
+padding-bottom:100px;
+}
+
+.row{
+  padding-bottom:100px;
+}
+
 #hero-2 {
   background: #efefef;
   color: inherit;
@@ -294,7 +304,7 @@ main {
 }
 
 #work {
-  padding: 80px 0;
+  padding: 110px 0;
 }
 
 #work h2 {
@@ -359,7 +369,7 @@ hr {
 }
 
 .section-book {
-  padding-top: 80px;
+  padding-top: 0;
   padding-bottom: 80px;
 }
 
@@ -643,6 +653,10 @@ ul.unorder-list {
   margin-bottom: 30px;
 }
 
+ul.unorder-list li{
+  padding-top: 15px;
+}
+
 a {
   text-decoration: none;
 }
@@ -867,7 +881,207 @@ a {
 }
 
 
+/* (St-Art projects) */
 
+
+
+.section-start-white h2 {
+  color: #778899;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-white {
+  background: #FFF;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.section-start-white p {
+  color: #000;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-white ul li {
+  color: #778899;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-white h3 {
+  color: #00FFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-white h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+.section-start-dark h2 {
+  color: #fff;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-dark {
+  background: #778899;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.section-start-dark p {
+  color: #000;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-dark ul li {
+  color: #fff;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-dark h3 {
+  color: #00FFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-dark h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+
+
+.section-start-blue h2 {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-blue {
+  background: #7E90FE;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-start-blue p {
+  color: #050505;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue ul li {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue h3 {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-blue h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+
+.section-start-blue-dark h2 {
+  color: #fff;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-blue-dark {
+  background: #0023ff;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-start-blue-dark p {
+  color: #E5E5E5;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue-dark ul li {
+  color: #FFF;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue-dark h3 {
+  color: #CCFFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-blue-dark h4 {
+  color: #CCFFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+#ui-start .row{
+  padding-bottom: 0;
+}
+
+#ui-library .row{
+  padding-bottom: 0;
+}
+
+#marketing-campaign .row{
+  padding-bottom: 0;
+}
+
+
+#marketing-campaign h3{
+  padding-top: 30px;
+}
+
+#strategy .row{
+  padding-bottom: 0;
+}
 
 
 /* (Ink Tank projects) */

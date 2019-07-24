@@ -151,3 +151,6 @@ function showSlides() {
   }
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+// Script for start spinner laod animation
