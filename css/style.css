@@ -277,11 +277,11 @@ main {
 }
 
 .row.section-row{
-padding-bottom:100px;
+padding-bottom:0;
 }
 
 .row{
-  padding-bottom:100px;
+  padding-bottom:0;
 }
 
 #hero-2 {
@@ -310,6 +310,18 @@ padding-bottom:100px;
 #work h2 {
   text-align: center;
   font-size: 2.5em;
+}
+
+#work .row.section-row{
+  padding-bottom: 100px;
+}
+
+#projects .row{
+  padding-bottom: 100px;
+}
+
+#fundamental .row{
+  padding-bottom: 100px;
 }
 
 ul.a {
