@@ -78,7 +78,7 @@ a {
 a:visited {
   color: #6200EE;
   background-color: inherit;
-  
+
 }
 
 a:hover, a:focus {
@@ -1206,7 +1206,13 @@ a {
   padding: 20px;
 }
 
-
+.artificial-center, .okra-center {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 .section-inktank-teal h2 {
