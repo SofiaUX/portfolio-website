@@ -14,7 +14,7 @@ Active color (Black): #000000;
 
 body {
   background-color: #f9f9f9;
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat';
   font-size: 20px;
   /* Sets the font size to 16px */
   line-height: 1.6;
@@ -24,10 +24,10 @@ body {
 }
 
 h1 {
-  font-family: 'Lora', serif;
-  font-size: 68px;
-  font-weight: 700;
-  color: #6200EE;
+font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
   background-color: inherit;
   margin: 0;
   padding: 0;
@@ -37,26 +37,28 @@ h1 {
 
 .slogan{
   margin-top: -0.25em;
-  margin-bottom: 0.5em;
-  color: #6200EE;
+  margin-bottom: 0;
+  color: #000;
 }
 
 
 
 .home-page h1 {
-  color: #6200ee;
+  color: #000;
   background-color: inherit;
 }
 
 h2 {
-  font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 h3 {
   font-size: 28px;
+    font-weight: 500;
 }
 
 h5 {
@@ -70,11 +72,13 @@ a {
   transition-duration: 0.5s;
   transition-property: color;
   cursor: pointer;
+  font-weight: 500;
 }
 
 a:visited {
   color: #6200EE;
   background-color: inherit;
+
 }
 
 a:hover, a:focus {
@@ -85,6 +89,7 @@ a:hover, a:focus {
 a:active {
   color: #3a008c;
   background-color: inherit;
+
 }
 
 nav .far {
@@ -107,6 +112,51 @@ nav .far {
 #projects h3 {
   cursor: default;
 }
+
+.loop{
+  padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Typewriter animated*/
+#container {
+font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #778899;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: #000;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		background-color: transparent
+	}
+	50% {
+		background-color: #000;
+	}
+}
+
+
+
 
 /* Course exercise */
 .column-2 {
@@ -214,7 +264,7 @@ img {
 
 /* style header */
 header {
-  padding: 15px 0;
+  padding: 14px 0;
   overflow: visible;
   background-color: #FFFFFF;
   color: inherit;
@@ -227,7 +277,7 @@ header {
 }
 
 .logo {
-  max-width: 175px;
+  max-width: 115px;
   position: relative;
 }
 
@@ -247,6 +297,7 @@ nav ul li {
   display: inline-block;
   margin-left: 30px;
 }
+
 
 nav a {
   font-size: 20px;
@@ -274,6 +325,14 @@ main {
   padding-top: 78px;
 }
 
+.row.section-row{
+padding-bottom:0;
+}
+
+.row{
+  padding-bottom:0;
+}
+
 #hero-2 {
   background: #efefef;
   color: inherit;
@@ -294,12 +353,24 @@ main {
 }
 
 #work {
-  padding: 80px 0;
+  padding: 110px 0;
 }
 
 #work h2 {
   text-align: center;
   font-size: 2.5em;
+}
+
+#work .row.section-row{
+  padding-bottom: 100px;
+}
+
+#projects .row{
+  padding-bottom: 100px;
+}
+
+#fundamental .row{
+  padding-bottom: 100px;
 }
 
 ul.a {
@@ -359,7 +430,7 @@ hr {
 }
 
 .section-book {
-  padding-top: 80px;
+  padding-top: 0;
   padding-bottom: 80px;
 }
 
@@ -488,15 +559,15 @@ hr {
 }
 
 .cards ul li span {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #778899;
   background-color: inherit;
 }
 
 .cards ul li {
-  font-family: 'Lora', serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .cards ul {
@@ -533,7 +604,7 @@ hr {
 }
 
 .case {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   cursor: pointer;
   color: #6200EE;
@@ -569,14 +640,14 @@ hr {
 }
 
 .row.cards h3 {
-  font-family: 'Lora', serif
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 
 
 .row.cards.fidelity h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #00FFFF;
 }
 
@@ -641,6 +712,10 @@ ul.unorder-list {
   list-style-position: outside;
   margin-left: 10px;
   margin-bottom: 30px;
+}
+
+ul.unorder-list li{
+  padding-top: 15px;
 }
 
 a {
@@ -734,7 +809,44 @@ a {
 }
 
 
+/* accountzilla project */
+#customer-needs h3 {
+  text-align: center;
+}
+#accountant-hypothesis h3{
+  text-align: center;
+  color:#6200EE;
+}
+#accountant-hypothesis {
+  text-align: center;
 
+}
+
+#accountant-intro h3{
+  text-align: center;
+  color:#6200EE;
+}
+
+#accountant-flow h3{
+  text-align: center;
+  color:#00FFFF;
+}
+
+#wireframe-accountzilla h3, #prototype-accountzilla h3 {
+  text-align: center;
+  color:#6200EE;
+}
+#prototype-accountzilla h4{
+  color:#6200EE;
+}
+
+#list-exception ul.unorder-list{
+  margin-top:0;
+}
+
+#space.col-9 col-md-12{
+  margin-left:30px;
+}
 
 
 /* book illustration styling*/
@@ -867,7 +979,207 @@ a {
 }
 
 
+/* (St-Art projects) */
 
+
+
+.section-start-white h2 {
+  color: #778899;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-white {
+  background: #FFF;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.section-start-white p {
+  color: #000;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-white ul li {
+  color: #778899;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-white h3 {
+  color: #00FFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-white h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+.section-start-dark h2 {
+  color: #fff;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-dark {
+  background: #778899;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.section-start-dark p {
+  color: #000;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-dark ul li {
+  color: #fff;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-dark h3 {
+  color: #00FFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-dark h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+
+
+.section-start-blue h2 {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-blue {
+  background: #7E90FE;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-start-blue p {
+  color: #050505;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue ul li {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue h3 {
+  color: #00041F;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-blue h4 {
+  color: #00FFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+
+
+
+.section-start-blue-dark h2 {
+  color: #fff;
+  background-color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-start-blue-dark {
+  background: #0023ff;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-start-blue-dark p {
+  color: #E5E5E5;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue-dark ul li {
+  color: #FFF;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+.section-start-blue-dark h3 {
+  color: #CCFFFF;
+  background-color: inherit;
+  font-size: 30px;
+
+}
+
+
+.section-start-blue-dark h4 {
+  color: #CCFFFF;
+  background-color: inherit;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+#ui-start .row{
+  padding-bottom: 0;
+}
+
+#ui-library .row{
+  padding-bottom: 0;
+}
+
+#marketing-campaign .row{
+  padding-bottom: 0;
+}
+
+
+#marketing-campaign h3{
+  padding-top: 30px;
+}
+
+#strategy .row{
+  padding-bottom: 0;
+}
 
 
 /* (Ink Tank projects) */
@@ -894,7 +1206,13 @@ a {
   padding: 20px;
 }
 
-
+.artificial-center, .okra-center {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 .section-inktank-teal h2 {
@@ -1186,7 +1504,7 @@ img {vertical-align: middle;}
   color: #778899;
   background-color: inherit;
   font-size: 18px;
-  font-family: 'Lora', serif;
+font-family: 'Montserrat';
 }
 
 .section-logo-grey h4 {
@@ -1288,7 +1606,7 @@ img {vertical-align: middle;}
 
   body {
     background-color: #f9f9f9;
-    font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     /* Sets the font size to 16px */
     line-height: 1.6;
