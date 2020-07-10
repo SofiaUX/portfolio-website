@@ -1224,6 +1224,8 @@ text-align: center;
 padding-bottom:20px;
 }
 
+
+
 #ixd-trofi{
   background:#c5941b;
 }
@@ -1234,10 +1236,34 @@ padding-bottom:20px;
   padding-top:50px;
 }
 
+#prototype-trofi h3{
+  text-align: center;
+  padding-bottom: 0;
+  padding-top:0;
+  font-size: 22px;
+}
+
+#ixd-trofi h2{
+  padding-top: 70px;
+}
+
+#prototype-trofi{
+padding-top: 30px;
+}
+
+#prioritize-improvements ol li{
+  color: #FFFFFF;
+}
+#prioritize-improvements P{
+text-align: left;
+color:#FFFFFF;
+}
+
+#prototype-trofi{
+  background:#c5941b;
+}
 
   /* bg full image */
-
-
 .bg-trofi {
   /* The image used */
   background-image: url("../img/mockup-landing-desktop.jpg");
@@ -1255,7 +1281,12 @@ video{
   margin:auto;
   display:block;
   padding-bottom:30px;
+  padding-top: 30px;
 }
+
+
+
+
 
 
 
