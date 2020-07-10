@@ -1182,6 +1182,83 @@ a {
 }
 
 
+/* (Trofi projects) */
+
+#prioritize-improvements h3{
+  padding-top: 20px;
+padding-bottom:  20px;
+  color:#FFFFFF;
+  font-size: 28px;
+text-align: center;
+}
+
+#prioritize-improvements p{
+  color:#000000;
+text-align: center;
+}
+
+.section-trofi-pink {
+  background:#DCCBDB;
+}
+
+.section-trofi-pink h2 {
+padding-top:20px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+.section-trofi-pink h3 {
+padding-top:20px;
+padding-bottom: 0;
+text-align: center;
+}
+
+.section-trofi-pink p {
+padding-top:0;
+padding-bottom: 10px;
+text-align: center;
+}
+
+#task-analysis-trofi p{
+text-align: center;
+padding-bottom:20px;
+}
+
+#ixd-trofi{
+  background:#c5941b;
+}
+
+#ixd-trofi h3{
+  text-align: center;
+  padding-bottom: 0;
+  padding-top:50px;
+}
+
+
+  /* bg full image */
+
+
+.bg-trofi {
+  /* The image used */
+  background-image: url("../img/mockup-landing-desktop.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+video{
+  margin:auto;
+  display:block;
+  padding-bottom:30px;
+}
+
+
+
 /* (Ink Tank projects) */
 .small-slider{
   max-width: 70%;

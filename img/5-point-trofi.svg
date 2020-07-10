@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504" height="365" viewBox="0 0 504 365">
+  <defs>
+    <filter id="Rectangle_4" x="11" y="58" width="493" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5" x="11" y="58" width="28" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-2" x="11" y="98" width="493" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5-2" x="11" y="98" width="28" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-3" x="11" y="142" width="493" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_5" x="11.669" y="142.254" width="27.942" height="52.796" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-4" x="11" y="185" width="493" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5-3" x="11" y="185" width="28" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-5" x="11" y="227" width="493" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5-4" x="11" y="227" width="28" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-6" x="11" y="270" width="493" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5-5" x="11" y="270" width="28" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_4-7" x="11" y="311" width="493" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_5-6" x="11" y="311" width="28" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_5-point-trofi" data-name="5-point-trofi" transform="translate(-63.895 -71.262)">
+    <g id="Group_3" data-name="Group 3" transform="translate(83.782 134.966)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -63.7)" filter="url(#Rectangle_4)">
+        <rect id="Rectangle_4-8" data-name="Rectangle 4" width="475" height="34" rx="10" transform="translate(20 64)" fill="#e0e2e8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -63.7)" filter="url(#Rectangle_5)">
+        <path id="Rectangle_5-7" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V34a0,0,0,0,1,0,0h0A10,10,0,0,1,0,24V10A10,10,0,0,1,10,0Z" transform="translate(20 64)" fill="#cb2a00"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(83.782 175.686)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -104.42)" filter="url(#Rectangle_4-2)">
+        <rect id="Rectangle_4-9" data-name="Rectangle 4" width="475" height="35" rx="10" transform="translate(20 104)" fill="#f3f3f3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -104.42)" filter="url(#Rectangle_5-2)">
+        <path id="Rectangle_5-8" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V35a0,0,0,0,1,0,0h0A10,10,0,0,1,0,25V10A10,10,0,0,1,10,0Z" transform="translate(20 104)" fill="#6697ec"/>
+      </g>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(83.782 219.247)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -147.98)" filter="url(#Rectangle_4-3)">
+        <rect id="Rectangle_4-10" data-name="Rectangle 4" width="475" height="35" rx="10" transform="translate(20 148)" fill="#e0e2e8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -147.98)" filter="url(#Path_5)">
+        <path id="Path_5-2" data-name="Path 5" d="M7.1,0h2.84V34.8H7.1a7.1,7.1,0,0,1-7.1-7.1V7.1A7.1,7.1,0,0,1,7.1,0Z" transform="translate(20.67 148.25)" fill="#cb2a00"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(83.782 261.86)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -190.6)" filter="url(#Rectangle_4-4)">
+        <rect id="Rectangle_4-11" data-name="Rectangle 4" width="475" height="34" rx="10" transform="translate(20 191)" fill="#f3f3f3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -190.6)" filter="url(#Rectangle_5-3)">
+        <path id="Rectangle_5-9" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V34a0,0,0,0,1,0,0h0A10,10,0,0,1,0,24V10A10,10,0,0,1,10,0Z" transform="translate(20 191)" fill="#feae0e"/>
+      </g>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(83.782 304.474)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -233.21)" filter="url(#Rectangle_4-5)">
+        <rect id="Rectangle_4-12" data-name="Rectangle 4" width="475" height="35" rx="10" transform="translate(20 233)" fill="#e0e2e8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -233.21)" filter="url(#Rectangle_5-4)">
+        <path id="Rectangle_5-10" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V35a0,0,0,0,1,0,0h0A10,10,0,0,1,0,25V10A10,10,0,0,1,10,0Z" transform="translate(20 233)" fill="#cb2a00"/>
+      </g>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(83.782 347.088)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -275.83)" filter="url(#Rectangle_4-6)">
+        <rect id="Rectangle_4-13" data-name="Rectangle 4" width="475" height="35" rx="10" transform="translate(20 276)" fill="#f3f3f3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -275.83)" filter="url(#Rectangle_5-5)">
+        <path id="Rectangle_5-11" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V35a0,0,0,0,1,0,0h0A10,10,0,0,1,0,25V10A10,10,0,0,1,10,0Z" transform="translate(20 276)" fill="#6697ec"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(83.782 388.754)">
+      <g transform="matrix(1, 0, 0, 1, -19.89, -317.49)" filter="url(#Rectangle_4-7)">
+        <rect id="Rectangle_4-14" data-name="Rectangle 4" width="475" height="36" rx="10" transform="translate(20 317)" fill="#e0e2e8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.89, -317.49)" filter="url(#Rectangle_5-6)">
+        <path id="Rectangle_5-12" data-name="Rectangle 5" d="M10,0h0a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0h0A10,10,0,0,1,0,26V10A10,10,0,0,1,10,0Z" transform="translate(20 317)" fill="#feae0e"/>
+      </g>
+    </g>
+    <text id="Change_the_product_package_animation_at_Landing_page" data-name="Change the product package animation at Landing page" transform="translate(172.896 145.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Change the product package </tspan></text>
+    <text id="Redesign_the_grids_and_the_UI_layout_and_components" data-name="Redesign the grids and the UI layout and components" transform="translate(172.896 176.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Redesign the grids and the </tspan><tspan x="0" y="27">UI layout and components</tspan></text>
+    <text id="Redesign_and_add_menu_sections" data-name="Redesign and add 
+menu sections" transform="translate(172.896 222.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Redesign and add </tspan><tspan x="0" y="27">menu sections</tspan></text>
+    <text id="Simplify_the_Footer_and_design_a_contact_form_and_info" data-name="Simplify the Footer and design
+ a contact form and info" transform="translate(172.896 265.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Simplify the Footer and design</tspan><tspan x="0" y="27" xml:space="preserve"> a contact form and info</tspan></text>
+    <text id="Display_a_user-oriented_contact_or_quote_form_" data-name="Display a user-oriented contact or quote form " transform="translate(172.896 306.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Display a user-oriented </tspan><tspan x="0" y="27">contact or quote form </tspan></text>
+    <text id="Improve_the_responsiveness_for_mobile_devices" data-name="Improve the responsiveness for mobile devices" transform="translate(172.896 347.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Improve the </tspan><tspan x="0" y="27">responsiveness for </tspan></text>
+    <text id="Highlight_active_menu" data-name="Highlight active menu" transform="translate(172.896 399.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Highlight active menu</tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(222.039 73.231)">
+      <path id="Path_4" data-name="Path 4" d="M4.21,0h6.615a4.21,4.21,0,0,1,4.21,4.21V9.02a4.21,4.21,0,0,1-4.21,4.21H4.21A4.21,4.21,0,0,1,0,9.02V4.21A4.21,4.21,0,0,1,4.21,0Z" transform="translate(7.23 0)" fill="#cb2a00"/>
+      <text id="Severe" transform="translate(-0.144 13.031)" fill="#111117" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0.521" y="9">Severe</tspan></text>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(259.919 73.231)">
+      <path id="Path_4-2" data-name="Path 4" d="M4.21,0h6.615a4.21,4.21,0,0,1,4.21,4.21V9.02a4.21,4.21,0,0,1-4.21,4.21H4.21A4.21,4.21,0,0,1,0,9.02V4.21A4.21,4.21,0,0,1,4.21,0Z" transform="translate(7.147 0)" fill="#feae0e"/>
+      <text id="Critical" transform="translate(-0.023 13.031)" fill="#111117" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="1.021" y="9">Critical</tspan></text>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(299.691 73.231)">
+      <path id="Path_4-3" data-name="Path 4" d="M4.21,0h6.615a4.21,4.21,0,0,1,4.21,4.21V9.02a4.21,4.21,0,0,1-4.21,4.21H4.21A4.21,4.21,0,0,1,0,9.02V4.21A4.21,4.21,0,0,1,4.21,0Z" transform="translate(4.148 0)" fill="#6697ec"/>
+      <text id="Major" transform="translate(0.205 13.031)" fill="#111117" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="1.705" y="9">Major</tspan></text>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(336.623 73.231)">
+      <path id="Path_4-4" data-name="Path 4" d="M4.21,0h6.615a4.21,4.21,0,0,1,4.21,4.21V9.02a4.21,4.21,0,0,1-4.21,4.21H4.21A4.21,4.21,0,0,1,0,9.02V4.21A4.21,4.21,0,0,1,4.21,0Z" transform="translate(4.5 0)" fill="#6fc5eb"/>
+      <text id="Minor" transform="translate(0.273 13.031)" fill="#111117" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="1.486" y="9">Minor</tspan></text>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(371.661 73.231)">
+      <path id="Path_4-5" data-name="Path 4" d="M4.21,0h6.615a4.21,4.21,0,0,1,4.21,4.21V9.02a4.21,4.21,0,0,1-4.21,4.21H4.21A4.21,4.21,0,0,1,0,9.02V4.21A4.21,4.21,0,0,1,4.21,0Z" transform="translate(6.746 0)" fill="#a9acb5"/>
+      <text id="Nitpick" transform="translate(0.235 13.031)" fill="#111117" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="2.305" y="9">Nitpick</tspan></text>
+    </g>
+    <text id="Tasks" transform="translate(161.896 114.262)" fill="#111117" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="38.418" y="15">Tasks</tspan></text>
+    <text id="UX_UI_potential_growth" data-name="UX/UI potential growth" transform="translate(305.896 114.262)" fill="#111117" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="6.644" y="15">UX/UI potential </tspan></text>
+    <text id="Severe-2" data-name="Severe" transform="translate(63.896 114.262)" fill="#111117" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="37.577" y="15">Severe</tspan></text>
+    <text id="_5" data-name="5" transform="translate(218.896 71.262)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="14.075" y="13">5</tspan></text>
+    <text id="_4" data-name="4" transform="translate(256.896 71.262)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="14.075" y="13">4</tspan></text>
+    <text id="_3" data-name="3" transform="translate(293.896 71.262)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="14.075" y="13">3</tspan></text>
+    <text id="_2" data-name="2" transform="translate(330.896 71.262)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="14.075" y="13">2</tspan></text>
+    <text id="_1" data-name="1" transform="translate(377.896 71.262)" fill="#fff" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="3.575" y="13">1</tspan></text>
+    <text id="_5-2" data-name="5" transform="translate(102.896 143.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">5</tspan></text>
+    <text id="_3-2" data-name="3" transform="translate(102.896 185.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">3</tspan></text>
+    <text id="_5-3" data-name="5" transform="translate(102.896 230.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">5</tspan></text>
+    <text id="_4-2" data-name="4" transform="translate(102.896 270.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">4</tspan></text>
+    <text id="_5-4" data-name="5" transform="translate(102.896 316.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">5</tspan></text>
+    <text id="_3-3" data-name="3" transform="translate(102.896 355.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">3</tspan></text>
+    <text id="_4-3" data-name="4" transform="translate(102.896 399.262)" fill="#111117" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="17.934" y="17">4</tspan></text>
+    <text id="Priority" transform="translate(441.896 114.262)" fill="#111117" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="34.62" y="15">Priority</tspan></text>
+    <text id="Improves_usability_issues_and_users_frictions" data-name="Improves usability issues and users frictions" transform="translate(328.896 138.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Improves </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">usability</tspan><tspan y="11" xml:space="preserve"> issues </tspan><tspan x="0" y="27">and users frictions</tspan></text>
+    <text id="Boosts_accessibility_readability_and_consistency" data-name="Boosts accessibility, readability and consistency" transform="translate(328.896 178.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Boosts </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">accessibility, </tspan><tspan x="0" y="27" font-family="OpenSans-Bold, Open Sans" font-weight="700">readability </tspan><tspan y="27">and </tspan><tspan y="27" font-family="OpenSans-Bold, Open Sans" font-weight="700">consistency</tspan></text>
+    <text id="Improves_functionality_and_desirability" data-name="Improves functionality and desirability" transform="translate(328.896 224.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Improves </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">functionality</tspan><tspan y="11"> </tspan><tspan x="0" y="27">and </tspan><tspan y="27" font-family="OpenSans-Bold, Open Sans" font-weight="700">desirability</tspan></text>
+    <text id="Escalates_accessibility_and_credibility" data-name="Escalates accessibility and credibility" transform="translate(328.896 263.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Escalates </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">accessibility </tspan><tspan x="0" y="27">and </tspan><tspan y="27" font-family="OpenSans-Bold, Open Sans" font-weight="700">credibility</tspan></text>
+    <text id="Emphasize_credibility" data-name="Emphasize credibility" transform="translate(327.896 316.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Emphasize </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">credibility</tspan></text>
+    <text id="Improves_desirability" data-name="Improves desirability" transform="translate(328.896 356.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Improves </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">desirability</tspan></text>
+    <text id="Improves_accessibility_and_readability" data-name="Improves accessibility
+and readability" transform="translate(328.896 399.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Improves </tspan><tspan y="11" font-family="OpenSans-Bold, Open Sans" font-weight="700">accessibility</tspan></text>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="53" height="19" rx="9.5" transform="translate(477.895 143.262)" fill="#f6e2b9"/>
+    <text id="High" transform="translate(492.896 144.262)" fill="#111117" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="11">High</tspan></text>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="53" height="18" rx="9" transform="translate(477.895 184.262)" fill="#dedfe2"/>
+    <text id="Low" transform="translate(494.896 185.262)" fill="#111117" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="11">Lo</tspan></text>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="53" height="18" rx="9" transform="translate(478.895 232.262)" fill="#f6e2b9"/>
+    <text id="High-2" data-name="High" transform="translate(493.896 233.262)" fill="#111117" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="11">High</tspan></text>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="53" height="19" rx="9.5" transform="translate(478.895 270.262)" fill="#d7e1f2"/>
+    <text id="Medium" transform="translate(486.896 272.262)" fill="#111117" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="11">Medium</tspan></text>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="53" height="18" rx="9" transform="translate(477.895 316.262)" fill="#f6e2b9"/>
+    <text id="High-3" data-name="High" transform="translate(493.896 317.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">High</tspan></text>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="53" height="19" rx="9.5" transform="translate(477.895 353.262)" fill="#dedfe2"/>
+    <text id="Low-2" data-name="Low" transform="translate(494.896 356.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">Low</tspan></text>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="53" height="19" rx="9.5" transform="translate(477.895 397.262)" fill="#f6e2b9"/>
+    <text id="High-4" data-name="High" transform="translate(494.896 400.262)" fill="#111117" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="11">High</tspan></text>
+  </g>
+</svg>
